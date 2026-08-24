@@ -16,6 +16,9 @@
         img-src 'self' data: https:;
         connect-src 'self' https:;
     ">
+    <!-- 3. 보안점검 대응: Permissions-Policy (민감한 브라우저 기능 비활성화) -->
+    <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=(), payment=(), usb=()">
+    
     <title>Applied Geochemistry Lab | Publications</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
