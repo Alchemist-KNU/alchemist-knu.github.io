@@ -1,8 +1,15 @@
 <!DOCTYPE html>
 <html lang="ko" class="scroll-smooth">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 보안점검 대응: Content Security Policy (CSP) 설정 -->
+    <meta http-equiv="Content-Security-Policy" content="
+        default-src 'self';
+        script-src 'self' 'unsafe-inline' https://cdn.tailwindcss.com https://cdnjs.cloudflare.com;
+        style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://fonts.googleapis.com;
+        font-src 'self' https://cdnjs.cloudflare.com https://fonts.gstatic.com data:;
+        img-src 'self' data: https:;
+        connect-src 'self' https:;
+    ">
     <title>Applied Geochemistry Lab | Home</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
