@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- 보안점검 대응: Content Security Policy (CSP) 설정 -->
+    <!-- 1. 보안점검 대응: 경로 기준 명확화 (<base> 태그) -->
+    <!-- GitHub Pages 주소를 기본 기준으로 설정 (학교 도메인을 배정받은 후에는 학교 도메인 주소로 변경) -->
+    <base href="https://alchemist-knu.github.io/">
+
+    <!-- 2. 보안점검 대응: Content Security Policy (CSP) 설정 -->
     <meta http-equiv="Content-Security-Policy" content="
         default-src 'self';
         script-src 'self' 'unsafe-inline' https://cdn.tailwindcss.com https://cdnjs.cloudflare.com;
