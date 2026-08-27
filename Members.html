@@ -247,7 +247,7 @@
                 <p class="text-slate-500 text-sm">연구실 졸업생</p>
             </div>
 
-           <!-- 졸업생 리스트 (카드 형태) -->
+<!-- 1. 대학원 졸업생 리스트 (기존 2열 카드) -->
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 
     <!-- Alumni Member 1 김범준 -->
@@ -258,7 +258,6 @@
         <div class="space-y-1.5 text-sm flex-1">
             <div class="flex items-center justify-between gap-2">
                 <h4 class="font-bold text-slate-900 text-base flex-shrink-0">김범준 (Bum-Jun Kim)</h4>
-                <!-- 오른쪽 밀착 및 배지 나란히 배치 (gap-1.5) -->
                 <div class="flex items-center gap-1.5 ml-auto flex-wrap justify-end">
                     <span class="px-2 py-0.5 bg-yellow-100 text-slate-600 font-medium text-[13px] rounded-full whitespace-nowrap">M.S. 2022</span>
                     <span class="px-2 py-0.5 bg-orange-100 text-slate-600 font-medium text-[13px] rounded-full whitespace-nowrap">Ph.D. 2026</span>
@@ -339,10 +338,90 @@
     </div>
 
 </div>
-               
+
+<!-- 2. 학부연구생 Alumni 리스트 (1번 컴팩트 가로 한 줄 방식) -->
+<div class="mt-12 space-y-4">
+    <!-- 서브 섹션 타이틀 -->
+    <h3 class="text-lg font-bold text-slate-800 border-b border-slate-200 pb-2 flex items-center gap-2">
+        <i class="fa-solid fa-user-graduate text-emerald-800"></i> Undergraduate Researchers (Alumni)
+    </h3>
+
+    <div class="space-y-3">
+        
+        <!-- Undergraduate Member 1 홍진-->
+        <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm hover:border-emerald-600/40 transition flex items-center justify-between gap-4 flex-wrap sm:flex-nowrap">
+            <div class="flex items-center gap-3 min-w-[240px]">
+                <div class="w-10 h-10 bg-slate-100 rounded-full flex-shrink-0 border overflow-hidden shadow-inner">
+                    <img src="images/user_placeholder.png" alt="학부연구생 이름" class="w-full h-full object-cover">
+                </div>
+                <div>
+                    <h4 class="font-bold text-slate-900 text-sm">홍진 <span class="text-xs font-normal text-slate-500">(Jin Hong)</span></h4>
+                    <p class="text-xs text-slate-500">B.S. 2023 <span class="text-slate-400">|</span> 학부연구생 (2021 - 2022)</p>
+                </div>
+            </div>
+            <div class="w-full sm:w-auto text-left sm:text-right">
+                <span class="inline-flex items-center gap-1.5 px-3 py-1 bg-slate-100 text-slate-700 text-xs font-medium rounded-full border border-slate-200">
+                    <i class="fa-solid fa-building text-slate-500"></i> 강원에너지기술공유대학 사업단 (https://etu.kangwon.ac.kr/etu/technology/introduction.do)
+                </span>
             </div>
         </div>
 
+        <!-- Undergraduate Member 2 신은정 -->
+        <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm hover:border-emerald-600/40 transition flex items-center justify-between gap-4 flex-wrap sm:flex-nowrap">
+            <div class="flex items-center gap-3 min-w-[240px]">
+                <div class="w-10 h-10 bg-slate-100 rounded-full flex-shrink-0 border overflow-hidden shadow-inner">
+                    <img src="images/user_placeholder.png" alt="학부연구생 이름" class="w-full h-full object-cover">
+                </div>
+                <div>
+                    <h4 class="font-bold text-slate-900 text-sm">신은정 <span class="text-xs font-normal text-slate-500">(Eun-Jung Shin)</span></h4>
+                    <p class="text-xs text-slate-500">B.S. 2024 <span class="text-slate-400">|</span> 학부연구생 (2022 - 2023)</p>
+                </div>
+            </div>
+            <div class="w-full sm:w-auto text-left sm:text-right">
+                <span class="inline-flex items-center gap-1.5 px-3 py-1 bg-slate-100 text-slate-700 text-xs font-medium rounded-full border border-slate-200">
+                    <i class="fa-solid fa-briefcase text-slate-500"></i> 강원에너지기술공유대학 사업단 (https://etu.kangwon.ac.kr/etu/technology/introduction.do)
+                </span>
+            </div>
+        </div>
+
+         <!-- Undergraduate Member 3 허정연 -->
+        <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm hover:border-emerald-600/40 transition flex items-center justify-between gap-4 flex-wrap sm:flex-nowrap">
+            <div class="flex items-center gap-3 min-w-[240px]">
+                <div class="w-10 h-10 bg-slate-100 rounded-full flex-shrink-0 border overflow-hidden shadow-inner">
+                    <img src="images/user_placeholder.png" alt="학부연구생 이름" class="w-full h-full object-cover">
+                </div>
+                <div>
+                    <h4 class="font-bold text-slate-900 text-sm">허정연 <span class="text-xs font-normal text-slate-500">(Jeong-Yeon Heo)</span></h4>
+                    <p class="text-xs text-slate-500">B.S. 2024 <span class="text-slate-400">|</span> 학부연구생 (2023)</p>
+                </div>
+            </div>
+            <div class="w-full sm:w-auto text-left sm:text-right">
+                <span class="inline-flex items-center gap-1.5 px-3 py-1 bg-slate-100 text-slate-700 text-xs font-medium rounded-full border border-slate-200">
+                    <i class="fa-solid fa-briefcase text-slate-500"></i> 더존ICT (https://www.douzone.com)
+                </span>
+            </div>
+        </div>
+
+         <!-- Undergraduate Member 4 전민영 -->
+        <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm hover:border-emerald-600/40 transition flex items-center justify-between gap-4 flex-wrap sm:flex-nowrap">
+            <div class="flex items-center gap-3 min-w-[240px]">
+                <div class="w-10 h-10 bg-slate-100 rounded-full flex-shrink-0 border overflow-hidden shadow-inner">
+                    <img src="images/user_placeholder.png" alt="학부연구생 이름" class="w-full h-full object-cover">
+                </div>
+                <div>
+                    <h4 class="font-bold text-slate-900 text-sm">전민영 <span class="text-xs font-normal text-slate-500">(Min-Young Jeon)</span></h4>
+                    <p class="text-xs text-slate-500">B.S. 2024 <span class="text-slate-400">|</span> 학부연구생 (2023)</p>
+                </div>
+            </div>
+            <div class="w-full sm:w-auto text-left sm:text-right">
+                <span class="inline-flex items-center gap-1.5 px-3 py-1 bg-slate-100 text-slate-700 text-xs font-medium rounded-full border border-slate-200">
+                    <i class="fa-solid fa-briefcase text-slate-500"></i> 공무원 (법원직)
+                </span>
+            </div>
+        </div>
+        
+    </div>
+</div>
     </main>
 
    <!-- Footer -->
