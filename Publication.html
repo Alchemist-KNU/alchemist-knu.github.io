@@ -37,29 +37,31 @@
 <body class="bg-slate-50 text-slate-800 antialiased flex flex-col min-h-screen">
 
     <!-- Header & Navigation -->
-    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-            <a href="index.html" class="flex items-center gap-3">
-                <div class="w-10 h-10 flex-shrink-0 flex items-center justify-center overflow-hidden">
-                    <img src="images/Logo.JPG" alt="Applied Geochemistry Lab Logo" class="w-full h-full object-contain">
-                </div>
-                <div>
-                    <div class="flex items-center gap-2">
-                        <h1 class="font-bold text-lg text-slate-900 leading-tight">Applied Geochemistry Lab</h1>
-                       
-                    </div>
-                    <p class="text-xs text-slate-500">Kangwon National University</p>
-                </div>
-            </a>
-            <nav class="hidden md:flex items-center gap-8 font-medium text-sm text-slate-600">
-                <a href="index.html#hero" class="nav-link hover:text-emerald-800 transition pb-1 border-b-2 border-transparent">Home</a>
-                <a href="index.html#about" class="nav-link hover:text-emerald-800 transition pb-1 border-b-2 border-transparent">About</a>
-                <a href="index.html#research" class="nav-link hover:text-emerald-800 transition pb-1 border-b-2 border-transparent">Research</a>
-                <a href="Members.html" class="nav-link hover:text-emerald-800 transition pb-1 border-b-2 border-transparent">Members</a>
-                <a href="Publication.html" class="nav-link active-menu transition pb-1 border-b-2 border-transparent">Publications</a>
-            </nav>
-        </div>
-    </header>
+<header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
+        
+        <!-- 로고 영역 -->
+        <a href="index.html" class="flex items-center gap-3 flex-shrink-0">
+            <div class="w-10 h-10 flex-shrink-0 flex items-center justify-center overflow-hidden">
+                <img src="images/Logo.JPG" alt="Applied Geochemistry Lab Logo" class="w-full h-full object-contain">
+            </div>
+            <div>
+                <h1 class="font-bold text-base sm:text-lg text-slate-900 leading-tight">Applied Geochemistry Lab</h1>
+                <p class="text-[10px] sm:text-xs text-slate-500">Kangwon National University</p>
+            </div>
+        </a>
+        
+        <!-- 수정한 <nav> 영역: 모바일 반응형 및 스크롤 지원 -->
+        <nav class="flex items-center gap-3 sm:gap-6 md:gap-8 font-medium text-xs sm:text-sm text-slate-600 overflow-x-auto whitespace-nowrap py-1">
+            <a href="index.html#hero" class="nav-link text-slate-600 hover:text-emerald-800 transition pb-1 border-b-2 border-transparent">Home</a>
+            <a href="index.html#about" class="nav-link text-slate-600 hover:text-emerald-800 transition pb-1 border-b-2 border-transparent">About</a>
+            <a href="index.html#research" class="nav-link text-slate-600 hover:text-emerald-800 transition pb-1 border-b-2 border-transparent">Research</a>
+            <a href="members.html" class="nav-link text-slate-600 hover:text-emerald-800 transition pb-1 border-b-2 border-transparent">Members</a>
+            <a href="publications.html" class="nav-link active-menu text-emerald-800 font-bold border-b-2 border-emerald-800 transition pb-1">Publications</a>
+        </nav>
+        
+    </div>
+</header>
 
     <!-- Main Content: Publications List -->
     <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 flex-grow space-y-12">
